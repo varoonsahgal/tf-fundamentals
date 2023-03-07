@@ -3,7 +3,7 @@
 Providers are plugins that Terraform uses to understand various external APIs and cloud providers. Thus far in this
 workshop, we've used the AWS provider.
 
-* In this exercise, we're going to modify the AWS provider we've been using to create our bucket in a different region
+* In this exercise, we're going to modify the AWS provider to explicitly specify the region that we want to use.
 
 ### Add the second provider
 
