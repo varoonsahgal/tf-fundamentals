@@ -65,6 +65,8 @@ variable when running the apply:
  ```
 
  * Terraform will execute another plan, and then ask you if you would like to apply the changes
+ * Note that you will first run into an error - how do you fix it?
+ * Once you fix the error, run apply again
  * Type "yes" to approve, then let it do its magic
  * Your output should look like the following:
 
