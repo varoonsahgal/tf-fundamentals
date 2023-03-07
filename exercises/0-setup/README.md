@@ -51,7 +51,7 @@ do this:
 ```bash
 mkdir -p workshop
 cd workshop
-git clone https://github.com/KernelGamut32/terraform-fundamentals-public .
+git clone https://github.com/varoonsahgal/tf-fundamentals.git .
 ```
 
 ## Set up your environment credentials to connect to AWS
@@ -60,7 +60,7 @@ place the following in your `~/.bash_profile` file at the bottom, and replace th
 ```
 export AWS_ACCESS_KEY_ID=[The access key ID provided or that you created above]
 export AWS_SECRET_ACCESS_KEY=[The secret access key provided or that you created above]
-export AWS_DEFAULT_REGION=us-east-2
+export AWS_DEFAULT_REGION=us-west-2
 ```
 
 Then source your new .bash_profile and ensure environment has the appropriate env vars set:
@@ -73,7 +73,7 @@ The printenv above should output something like:
 ```
 AWS_ACCESS_KEY_ID=xxxxxx
 AWS_SECRET_ACCESS_KEY=xxxxxxx
-AWS_DEFAULT_REGION=us-east-2
+AWS_DEFAULT_REGION=us-west-2
 ```
 
 Having done that, we should be ready to move on!
