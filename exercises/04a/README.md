@@ -40,7 +40,7 @@ the Terraform project.
 
 # Workspaces
 
-Now let's go further with a simple example of workspaces. Remember that workspaces are just distinct copies of the
+Now let's go further with a simple example of workspaces. In Terraform, workspaces are just distinct copies of the
 state. Rather than making our own copies, we'll let Terraform do it for us. 
 
 Terraform always starts with a workspace called `default`. Let's create a new workspace and name it `sandbox`. To do
