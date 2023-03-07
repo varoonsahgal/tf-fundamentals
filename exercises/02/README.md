@@ -120,7 +120,7 @@ Try just running the plan without having a pre-populated value set:
 terraform plan
 ```
 
-### 5) Adjust validation
+### 5) Challenge exercise - Adjust validation
 
 1. Adjust the validation defined for the `student_alias` variable to also enforce a minimum length of 5 characters and a maximum length of 20 characters. You might find https://www.terraform.io/docs/language/functions/index.html helpful for info on built-in functions. Update the error message to reflect all validation rules.
 
