@@ -41,7 +41,7 @@ workshop, we've used the AWS provider.
 The above should show that you have a bucket now named `devint-[your student alias]-alt` that was created in the
 `us-west-2` region.
 
- *NOTE:* that at the beginning of the course we set the `AWS_DEFAULT_REGION` environment variable via `aws configure`. Along with this variable and the access key and secret key, terraform will use these environment variables for the AWS provider as defaults unless you override them in the HCL provider stanza.
+ *NOTE:* that at the beginning of the course we set the `AWS_DEFAULT_REGION` environment variable via `aws configure`. You can validate that the environment variable is set as such by running `echo $AWS_DEFAULT_REGION`. Along with this variable and the access key and secret key, terraform will use these environment variables for the AWS provider as defaults unless you override them in the HCL provider stanza.
 
  We'll be looking more at using providers in other exercises as we move along.
 
