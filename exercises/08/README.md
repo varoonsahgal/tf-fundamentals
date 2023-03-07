@@ -313,7 +313,6 @@ Two very common examples in the AWS provider:
  ```
 
  * __Availability zones are specific to a particular region, and we're not passing in a region here, so how is this working?__
- * If you can't figure out, ask your instructor for a little help
 
  * Similar to the AMI data source, this one also has attributes that have been populated and can be accessed after the query to the AWS api actually happens
  * So in our subsequent HCL, we can access the `names` attribute, giving us all AZ names like this:
