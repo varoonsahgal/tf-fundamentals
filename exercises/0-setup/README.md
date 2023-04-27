@@ -1,5 +1,12 @@
 # Getting Set up for Exercises
 
+Note that for our purposes we will skip the Cloud9 setup below and instead just run everything directly in our VM's.
+
+The one thing you will need to do is clone the repository down to your VM as described in the section `Pull the exercises repository` below.
+
+You can validate that you are still logged into AWS inside your VM's by running `aws sts get-caller-identity`.
+
+
 In this first exercise we'll make sure that we're all set up with our AWS credentials and access to AWS, and then we'll
 create a Cloud9 server/environment where we'll run further exercises.
 
