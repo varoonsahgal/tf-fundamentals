@@ -25,7 +25,6 @@ variable "student_alias" {
 * There is no "value" parameter in the syntax for the variable object
 * Variable stanzas are not meant to be inputs, but rather placeholders for input that can be references in our Terraform code
 * Variable stanzas can be used this way by simply setting the `default` to the desired value
-* But this negates the benefits of Terraform's native re-usability, instead try...
 
 
 ### Let's get started
