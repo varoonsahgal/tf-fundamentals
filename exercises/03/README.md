@@ -170,7 +170,7 @@ A terraform plan includes a few symbols to tell you what will happen
 
 So our above plan will modify our s3 object in place per our requested update to the file.
 
-Some resources or changes require that a resource be recreated to facilitate that change, and those cases are usually expected. One example of this would be an AWS launch configuration. In AWS, launch configurations cannot be changed, only copied and modified once during the creation of the copy. Terraform is generally made aware of these caveats and
+Some resources or changes require that a resource be recreated to facilitate that change, and those cases are usually expected. One example of this would be an AWS launch configuration, which are templates that an Auto Scaling Group uses to launch EC2 instances. In AWS, launch configurations cannot be changed, only copied and modified once during the creation of the copy. Terraform is generally made aware of these caveats and
 handles those changes gracefully, including updating dependent resources to link to the newly created resource. This
 greatly simplifies complex or frequent changes to any size infrastructure and reduces the possibility of human error.
 
